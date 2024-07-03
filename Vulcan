@@ -1,0 +1,8 @@
+# Assuming the planet's population is 1 million and 0.0001% are Vulcans
+population = 1000000
+vulcan_percentage = 0.0001
+
+# Calculate the number of Vulcans on the planet
+vulcan_count = population * vulcan_percentage
+
+print(f'The number of Vulcans on the planet is: {vulcan_count}')
